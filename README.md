@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version -> 3.1.2
+Rails -> 7.0.3
 
-Things you may want to cover:
+System dependencies
 
-* Ruby version
+- rspec
+- factory_bot
+- shoulda_matchers
+- faker
 
-* System dependencies
+Configuration
 
-* Configuration
+Database creation -> SQL
 
-* Database creation
+Database initialization -> SQLite
 
-* Database initialization
+How to run the test suite
 
-* How to run the test suite
+```sh
+ $ make test
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+Deployment instructions
 
-* ...
+...
